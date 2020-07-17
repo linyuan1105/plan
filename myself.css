@@ -1,0 +1,124 @@
+*,div,img{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+li{
+	list-style-type: none;
+}
+.container{
+	padding: 30px 20px 20px 20px;
+	position: relative;
+	width: 100%;
+	height: 120%;
+	background-image: url('./bgImg.png');
+}
+.left{
+	position: absolute;
+	width: 40%;
+	height: 90%;
+	left: 0;
+	border-right: 1px dotted white;
+}
+.right{
+	position: absolute;
+	right: 0;
+	width: 60%;
+	height: 90%;
+}
+.left>.left_info{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top:50px ;
+}
+.left>.left_info > h6,h2{
+	text-align: right;
+	margin-right: 10px;
+}
+.my_info_details{
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 40px;
+}
+.my_info_details>.myemail{
+	overflow: hidden;
+}
+.my_info_details>.myemail,h4,p{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.my_home_place{
+	font-size: 10px;
+}
+.my_head_picture{
+	position: relative;
+	width: 100%;
+	padding-top:20px ;
+	
+}
+.clearfix{
+	height: 0;
+	clear: both;
+}
+.my_head_picture >div>img{
+	display: block;
+	width: 80%;
+	margin-left: 20px;
+}
+.English_Cet{
+	position: relative;
+	overflow: hidden;
+	padding-top:50px ;
+	padding-left: 40px;
+}
+.gitHub_address{
+	padding-top: 30px;
+	padding-left: 40px;
+	text-align: center;
+}
+.gitHub_address >a> img{
+	margin-top: 10px;
+	display: block;
+	width: 30%;
+	margin-left: 42px;
+}
+.Education,.Brief_introduction,.Work_experience,.Project_experience{
+	padding-left: 10px;
+	font-size: 10px;
+}
+.school_info{
+	font-size: 10px;
+}
+.Brief_introduction{
+	padding-top: 5px;
+}
+.Brief_introduction>ul>li{
+	padding-top: 5px;
+}
+.company{
+	padding-left: 0px;
+}
+.position{
+	padding-left: 20px;
+}
+.product_intoduce{
+	padding-top: 10px;
+	margin-top: 5px;
+}
+.content{
+	padding-left: 0px;
+	padding-right: 5px;
+}
+.Technology{
+	padding-top: 10px;
+	font-size: 16px;
+}
+.task{
+	font-size: 15px;
+}
